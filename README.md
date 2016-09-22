@@ -1,5 +1,5 @@
 # CKAN Chameleon CSS
-A easy way to create a custom CSS for (http://ckan.org)[CKAN] in any color you like.
+A easy way to create a custom CSS for [CKAN](http://ckan.org) in any color you like.
 
 # Usage
 
