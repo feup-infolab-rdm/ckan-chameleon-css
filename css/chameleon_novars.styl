@@ -1,0 +1,248 @@
+@import "./main.css"
+@import "./constants.styl"
+
+a
+	color: #2f9b45;
+	
+a:hover,
+a:focus
+	color: #1d602b;
+	text-decoration: underline;
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a
+	background-color: #2d9342;
+	background-image: -moz-linear-gradient(top, #2f9b45, #29873c);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2f9b45), to(#29873c));
+	background-image: -webkit-linear-gradient(top, #2f9b45, #29873c);
+	background-image: -o-linear-gradient(top, #2f9b45, #29873c);
+	background-image: linear-gradient(to bottom, #2f9b45, #29873c);
+	filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff187794', endColorstr='#ff14657e', GradientType=0);"
+	
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus 
+	background-color: #2d9342;
+	background-image: -moz-linear-gradient(top, #2f9b45, #29873c);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2f9b45), to(#29873c));
+	background-image: -webkit-linear-gradient(top, #2f9b45, #29873c);
+	background-image: -o-linear-gradient(top, #2f9b45, #29873c);
+	background-image: linear-gradient(to bottom, #2f9b45, #29873c);
+	filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2f9b45', endColorstr='#ff29873c', GradientType=0);"
+  
+.btn-primary
+	background-color: #36b24f;
+	background-image: -moz-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3bc256), to(#2f9b45));
+	background-image: -webkit-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: -o-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: linear-gradient(to bottom, #3bc256, #2f9b45);
+	filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3bc256', endColorstr='#ff2f9b45', GradientType=0);
+	border-color: #2f9b45 #2f9b45 #1d602b;
+	*background-color: #2f9b45;"
+	
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled]
+	background-color: #2f9b45;	
+	*background-color: #29873c;
+	
+.btn-primary:active,
+.btn-primary.active
+	background-color: #237434 \9;
+
+.btn-link
+	color: #2f9b45;
+	
+.btn-link:hover,
+.btn-link:focus
+	color: #1d602b;
+	
+.btn-group.open .btn-primary.dropdown-toggle
+	background-color: #2f9b45
+	
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus
+	background-color: #237434
+	
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus
+	background-color: #237434
+	
+.nav .dropdown-toggle .caret
+	border-top-color: #2f9b45;
+	border-bottom-color: #2f9b45;
+	
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret
+	border-top-color: #1d602b;
+	border-bottom-color: #1d602b;
+	
+a.thumbnail:hover,
+a.thumbnail:focus
+	border-color: #2f9b45;
+	
+a.tag:hover
+	background-color: #3bc256;
+	border: 1px solid #2f9b45;
+	-webkit-box-shadow: inset 0 1px 0 #61cf77;
+	-moz-box-shadow: inset 0 1px 0 #61cf77;
+	box-shadow: inset 0 1px 0 #61cf77;
+	
+.banner
+	background-color: #2f9b45;
+	
+.media-view:hover,
+.media-view.hovered
+	border-color: #2f9b45;
+	
+.media-view:hover .banner,
+.media-view.hovered .banner
+	background-color: #2f9b45;
+
+.editor .editor-info-block a
+	color: #2f9b45;
+	
+.control-custom.disabled .checkbox.btn
+	background-color: #36b24f;
+	background-image: -moz-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3bc256), to(#2f9b45));
+	background-image: -webkit-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: -o-linear-gradient(top, #3bc256, #2f9b45);
+	background-image: linear-gradient(to bottom, #3bc256, #2f9b45);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3bc256', endColorstr='#ff2f9b45', GradientType=0);"
+	border-color: #2f9b45 #2f9b45 #1d602b;
+	*background-color: #2f9b45;
+
+.control-custom.disabled .checkbox.btn:hover,
+.control-custom.disabled .checkbox.btn:focus,
+.control-custom.disabled .checkbox.btn:active,
+.control-custom.disabled .checkbox.btn.active,
+.control-custom.disabled .checkbox.btn.disabled,
+.control-custom.disabled .checkbox.btn[disabled]
+	background-color: #2f9b45;
+	*background-color: #29873c;
+	
+.control-custom.disabled .checkbox.btn:active,
+.control-custom.disabled .checkbox.btn.active
+	background-color: #237434 \9;
+	
+.resource-list.reordering .resource-item.ui-sortable-helper
+	border: 1px solid #2f9b45;
+	
+.resource-list.reordering .resource-item.ui-sortable-helper .handle
+	border-color: #2f9b45;
+	
+.view-list li a.active,
+.view-list li a:hover
+	border-color: #2f9b45;
+	
+.view-list li a.active .icon,
+.view-list li a:hover .icon
+	background-color: #2f9b45;
+	
+.view-list li .arrow
+	border-top-color: #2f9b45;
+	
+.view-list li.active a
+	border-color: #2f9b45;
+
+.view-list li.active a .icon
+	background-color: #2f9b45;
+	
+.view-list.stacked::-webkit-scrollbar-thumb:hover
+	background-color: #2f9b45
+	
+.homepage .module-search .module-content
+	background-color: #2f9b45;
+	
+.view-list.stacked::-webkit-scrollbar-thumb:hover
+	background-color: #2f9b45
+	
+.homepage .module-search .tags
+	background-color: #237434
+
+.account-masthead
+	background: #237434 url("../../../base/images/bg.png");
+	
+.account-masthead .account ul li
+	border-left: 1px solid #1d602b;
+	
+.account-masthead .account ul li a
+	color: #cbe6d1;
+	
+.account-masthead .account ul li a:hover
+	color: #e0f0e3;
+	background-color: #1d602b;
+	
+.account-masthead .account .notifications a span.badge
+	background-color: #1d602b;
+	color: #cbe6d1;
+
+.account-masthead .account .notifications a:hover span
+	background-color: #174d22;
+	
+.masthead
+	background: #2f9b45 url("../../../base/images/bg.png");
+	
+.masthead input[type="text"]
+	border-color: #29873c;
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li.active a 
+	background-color: #237434;
+	
+.masthead .btn-navbar,
+.masthead .btn-navbar:hover,
+.masthead .btn-navbar:focus,
+.masthead .btn-navbar:active,
+.masthead .btn-navbar.active,
+.masthead .btn-navbar.disabled,
+.masthead .btn-navbar[disabled]
+	background-color: #237434;
+	
+.site-footer
+	background: #2f9b45 url("../../../base/images/bg.png");
+	
+.site-footer input[type="text"]
+	border-color: #29873c;
+
+.site-footer .navigation .nav-pills li a:hover,
+.site-footer .navigation .nav-pills li.active a
+	background-color: #237434;
+	
+.site-footer .btn-navbar,
+.site-footer .btn-navbar:hover,
+.site-footer .btn-navbar:focus,
+.site-footer .btn-navbar:active,
+.site-footer .btn-navbar.active,
+.site-footer .btn-navbar.disabled,
+.site-footer .btn-navbar[disabled]
+	background-color: #237434;
+	
+.site-footer,
+.site-footer label,
+.site-footer small
+	color: #acd7b5
+
+.site-footer a
+	color: #acd7b5;
+	
+.attribution small
+	color: #acd7b5;
+	
+.popover-followee .nav li a i
+	background-color: #2f9b45;
+
+.popover-followee .nav li.active a i
+	color: #2f9b45;
+	
+body
+	background: #fff url("../../../base/images/bg.png");
