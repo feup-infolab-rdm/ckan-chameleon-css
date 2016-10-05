@@ -17,9 +17,9 @@ stylus -w css/
 ```
 (brew is for the Mac, use apt-get on Linux)
 
-- Edit the hue_rotate value in constants.styl file for the hue you want
+- Edit the target_color value in constants.styl file for the color you want to be the main color 
 ```stylus
-hue_rotate=101deg
+target_color=8C2D19 #color of FEUP
 ```
 
 - Stylus will compile the .styl into css
