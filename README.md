@@ -26,6 +26,6 @@ target_color=#8C2D19 //color of FEUP
 - Upload your css into the css installation
   - You can also open the `test/Welcome - CKAN.html` file to preview how a home page of CKAN would look with your new CSS  ;-)
 - Edit the admin.py file, adding an entry to your custom CSS 
-  The file is located at `/home/ckan/src/ckan/ckan/controllers/admin.py` if your installation user was  `ckan`
+  - The file is located at `/home/ckan/src/ckan/ckan/controllers/admin.py` if your installation user was  `ckan`
 - Select the custom CSS in the CKAN admin panel
 - Reload and you are done!
