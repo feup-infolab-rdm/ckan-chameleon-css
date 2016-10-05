@@ -19,7 +19,7 @@ stylus -w css/
 
 - Edit the target_color value in constants.styl file for the color you want to be the main color 
 ```stylus
-target_color=#8C2D19 #color of FEUP
+target_color=#8C2D19 //color of FEUP
 ```
 
 - Stylus will compile the .styl into css
