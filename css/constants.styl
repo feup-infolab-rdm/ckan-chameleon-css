@@ -1,11 +1,23 @@
-mainBackgroundColor = "#222222"
+mainBackgroundColor = #222222
 
 fontFamily='Helvetica, Arial, sans-serif;'
 
-fontColor="#FF0000"
+fontColor=#FF0000
 fontFamilyBody='Georgia, Times, Serif'
 
-hue_rotate=101deg
+//example color
+inesc_color=#2681B8
+feup_color=#8C2D19
+
+//change this color to change the overall tone of all the elements in the CKAN website
+
+original_green_bar_color=#2f9b45
+original_green_bar_color_hue=hue(original_green_bar_color)
+
+target_color=inesc_color
+target_hue=hue(target_color)
+
+hue_rotate=target_hue - original_green_bar_color_hue
 
 color1=spin(#e0f0e3, hue_rotate)
 color2=spin(#cbe6d1, hue_rotate)
@@ -19,4 +31,3 @@ color9=spin(#29873c, hue_rotate)
 color10=spin(#237434, hue_rotate)
 color11=spin(#1d602b, hue_rotate)
 color12=spin(#174d22, hue_rotate)
-
