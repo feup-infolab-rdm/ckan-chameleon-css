@@ -23,10 +23,22 @@ target_color=#8C2D19 //color of FEUP
 ```
 
 - Stylus will compile the .styl into css
-- Upload your css into the css installation
-  - Located at `/home/ckan/src/ckan/ckan/public/base/css` if your installation user was  `ckan`
+- Upload your css (chameleon.css, for example) into the css installation
+  - Location folder is `/usr/lib/ckan/default/src/ckan/ckan/public/base/css`
   - You can also open the `test/Welcome - CKAN.html` file to preview how a home page of CKAN would look with your new CSS  ;-)
 - Edit the admin.py file, adding an entry to your custom CSS 
-  - Located at `/home/ckan/src/ckan/ckan/controllers/admin.py` if your installation user was  `ckan`
+  - Add this line
+       ```python
+       def _get_config_form_items(self):
+       # Styles for use in the form.select() macro.
+       styles = [{'text': 'Default', 'value': '/base/css/main.css'},
+                 {'text': 'Red', 'value': '/base/css/red.css'},
+                 {'text': 'Green', 'value': '/base/css/green.css'},
+                 {'text': 'Maroon', 'value': '/base/css/maroon.css'},
+                 {'text': 'Fuchsia', 'value': '/base/css/fuchsia.css'},                  
+                 {'text': 'Your Custom Theme', 'value': '/base/css/chameleon.css'}] # <<<<<<<<<< NEW LINE
+        ```
+  
+  - Located at `/usr/lib/ckan/default/src/ckan/ckan/controllers/admin.py`
 - Select the custom CSS in the CKAN admin panel
 - Reload and you are done!
