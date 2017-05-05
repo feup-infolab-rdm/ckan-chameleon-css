@@ -7,12 +7,12 @@ A easy way to create a custom CSS for [CKAN](http://ckan.org) in any color you l
 
 - Install Stylus
 ```bash
-brew install git
-brew install node
-brew install npm
-npm install stylus -g
-git clone https://github.com/feup-infolab-rdm/ckan-chameleon-css.git
-cd ckan-chameleon-css
+brew install git &&
+brew install node &&
+brew install npm &&
+npm install stylus -g &&
+git clone https://github.com/feup-infolab-rdm/ckan-chameleon-css.git &&
+cd ckan-chameleon-css &&
 stylus -w css/
 ```
 (brew is for the Mac, use apt-get on Linux)
