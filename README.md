@@ -3,7 +3,7 @@ A easy way to create a custom CSS for [CKAN](http://ckan.org) in any color you l
 
 # Usage
 
-## Monitoring the .styl file and compile automatically
+## Monitoring the constants.styl file and compile automatically
 
 - Install Stylus
 ```bash
